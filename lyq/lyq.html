@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>连衣裙</title>
+	  <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="css/lyq.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    
+   <script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+</head>
+<body>
+	<header>
+		<p class="fl qz"><span class="iconfont fh">&#xe646;</span>Woman,dresses</p>
+		<div class="fr you">
+             <p class="iconfont gwc">&#xe707;</p>
+             <p class="yuan">3</p>
+        </div>
+        <form>
+            <input type="button" value="ADD TO WISHLIST">
+            <input type="button" value="ADD TO CART" class="er">
+        </form>
+    </header>
+    <div class="bananer">
+         <img src="img/bananer.png" alt="">
+         <p>Elegant Pink Dresses<span>$605,00</span></p>
+    </div>
+    <div class="jia">
+    	<p><span>+</span>Description</p>
+    </div>
+    <div class="chosses">
+           <div class="ys">
+           	    <img src="img/yudi.png" alt="" class="fl">
+           	    <p class="fl">color:</p>
+           
+           </div>
+           <div class="xz">choose a color for item</div>
+           		<ul class="kuai">
+                <li class="yi fl"><img src="img/dui.png" alt=""></li>
+                <li class="er1 fl"></li>
+                <li class="san fl"></li>
+           		</ul>
+            <div class="xian"></div>
+            <div class="cc">
+                 <div class="cc_top">
+                      <img src="img/yifujia.png" alt="" class="fl">
+                      <p class="fl">Size:</p>
+                 </div>
+                 <p>Size available for this item</p>
+                 <ul class="fang">
+                       <li>6</li>
+                       <li>8</li>
+                       <li>10</li>
+                       <li>12</li>
+                       <li>14</li>
+                 </ul>
+            </div>
+    </div>
+    <form>
+         <input type="button" value="ADD TO CART" class="anniu">
+    </form>
+    <div class="con">
+         <div class="con_top">
+              <p class="fl">SHARE ON</p>
+              <span class="fl"></span>
+         </div>
+         <div class="con_bottom">
+               <ul class="di_yi">
+                    <li>
+                      <img src="img/feiniao.png" alt="" class="fl">
+                      <p class="fl">205<span></span></p>
+                    </li>
+                    <li>
+                      <img src="img/f.png" alt="" class="fl">
+                      <p class="fl">322<span></span></p>
+                    </li>
+                    <li>
+                      <img src="img/q.png" alt="" class="fl">
+                      <p class="fl">12<span></span></p>
+                    </li>
+                    
+               </ul>
+
+         </div>
+
+    </div>
+	
+</body>
+</html>
