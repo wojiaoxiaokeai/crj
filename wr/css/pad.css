@@ -1,0 +1,170 @@
+@charset "utf_8";
+.header_right{
+	display: none;
+}
+.gwidth{
+	padding-left: 13px;
+	margin-right: 11px;
+}
+.sousuo{
+	position: relative;
+}
+.sousuo input{
+	width: 343px;
+	height: 26px;
+	border:1px solid #ccc;
+	
+}
+.jing{
+     position: absolute;
+     right: 5px;
+     top:5px;
+     color: #176EA3;
+     font-weight: bold;
+}
+.jing{
+	display: block;
+}
+.nav li{
+	float: left;
+	background-color: #fff;
+	margin-right: 31px;
+}
+.nav li a{
+	color: black;
+}
+.nav li i{
+	color: black;
+
+}
+.bananer img{
+	width: 100%;
+	height: 220px;
+}
+.office{
+	padding-left: 10px;
+	padding-right:10px;
+	margin-top:19px;
+	height: 241px;
+}
+.office li{
+	width: 31%;
+	float: left;
+	margin-right: 10px;
+}
+.office p{
+	padding-top: 10px;
+}
+.dq{
+	display: none;
+}
+.liaojie{
+	display: block;
+	margin-top:25px;
+	height: 1244px;
+}
+.fd{
+	padding-top: 24px;
+}
+.fd  li{
+	float: left;
+	color: #1586C4;
+	margin-right: 16px;
+}
+.jiaz{
+	width: 119px;
+	height: 29px;
+	background-color: #1570A6;
+	text-align: center;
+	line-height: 29px;
+	float: left;
+	margin-right: 10px;
+	color: #fff;
+}
+.lj_top{
+	height: 104px;
+}
+.lj_top h1{
+	font-weight: normal;
+}
+.shiying{
+	height: 29px;
+}
+
+.da_e{
+	margin-top: 24px;
+}
+.da_e li{
+	float: left;
+	margin-bottom: 42px;
+}
+.da_e img{
+	float: left;
+}
+.da_e p{
+	float: left;
+	color: #1570A6;
+	padding-left:24px;
+}
+
+.xi1 li h1{
+      font-weight: normal;
+      padding-bottom: 28px;
+      margin-top: 55px;
+}
+.xi1 li p{
+	color: #1570A6;
+	font-size: 14px;
+	line-height: 29px;
+}
+.lj_bottom{
+	width: 535px;
+}
+.gzwr{
+	margin-top: 57px;
+	height: 325px;
+}
+.wr_xw{
+	width: 615px;
+	height: 202px;
+	background-color: #115E8B;
+	padding-left:29px;
+	padding-top: 28px;
+	padding-right:31px;
+}
+.wr_db{
+	height: 109px;
+	margin-top: 10px;
+
+}
+.wr_db h1{
+	font-size: 20px;
+	padding-bottom: 21px;
+}
+.wr_db p{
+	float: left;
+}
+.wrzd_l{
+	float: left;
+
+	
+}
+.xiazai{
+	float: left;
+	margin-left: 97px;
+	margin-right: 63px;
+}
+.jingd{
+	width: 589px;
+	line-height: 35px;
+}
+
+.jingd p {
+	float: left;
+	font-size: 14px;
+}
+.jingd a{
+	float: left;
+}
+
+
