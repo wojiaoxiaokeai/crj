@@ -61,14 +61,21 @@
 	line-height: 40px;
 	color: black;
 }
-.bananer img{
+.swiper-container {
+    width: 100%;
+    height: 184px;
+} 
+.swiper-slide img{
 	width: 100%;
-	height: 184px;
+	height: 100%;
 }
 .xl{display: none;}
 .show{display: block;}
 .zui_xq{
 	
+}
+.boxb{
+	height: 340px;
 }
 .xq{
 	padding-left: 38px;
@@ -95,6 +102,7 @@
 }
 .office{
 	height: 567px;
+	margin-top: 30px;
 }
 .office li img{
 	width: 100%;
@@ -112,9 +120,8 @@
 }
 .dq li{
 	float: left;
-	margin-right: 50px;
 	text-align: center;
-	width: 18%;
+	width: 32.6%;
 	padding-top: 49px;
 
 }

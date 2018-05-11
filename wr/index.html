@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>微软响应式</title>
+	<link rel="stylesheet" href="swiper/swiper.css">
 	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
 	<link rel="stylesheet" type="text/css" href="css/gg.css">
 	<link rel="stylesheet" type="text/css" href="font/iconfont.css">
@@ -60,18 +61,27 @@
 
          </ul>
     </div>
-    <div class="bananer">
-      
-           <ul>
-      			<li><a href=""><img src="img/phone.png" alt=""></a></li>
-      			
-          </ul>
-          <div class="xq">
-              <h3>Surface</h3>
-              <p>了解能够取代您的笔记本电脑的平板电脑。surface pro3。</p>
-              <a href="">了解详情</a>
-         </div>
+    <div class="boxb">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="img/phone.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/phone.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/phone.png" alt=""></div>
+            </div>
+             <!-- 如果需要分页器 -->
+             <div class="swiper-pagination"></div>
+    
+              <!-- 如果需要导航按钮 -->
+             <div class="swiper-button-prev"></div>
+             <div class="swiper-button-next"></div>
+             <div class="xq">
+                     <h3>Surface</h3>
+                     <p>了解能够取代您的笔记本电脑的平板电脑。surface pro3。</p>
+                     <a href="">了解详情</a>
+             </div>
+        </div>
     </div>
+
     <ul class="office gwidth">
           <li>
                <img src="img/office.png" alt="">
@@ -252,6 +262,42 @@
 			}
 		}
 	</script>
+	<script src="swiper/swiper.min.js"></script>
+ <script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+	effect : 'cube',
+   cubeEffect: {
+    slideShadows: true,
+    shadow: true,
+    shadowOffset: 100,
+    shadowScale: 0.6
+  },
+	
+    autoplay: {
+    delay: 2000,
+    stopOnLastSlide: false,
+    disableOnInteraction: false,
+    },
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    // 如果需要滚动条
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })        
+  </script>         
+    
 	
 
 	

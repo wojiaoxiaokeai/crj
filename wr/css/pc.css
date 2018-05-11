@@ -38,12 +38,19 @@
 	color: black;
 
 }
-.bananer img{
+.boxb{
+	height: 351px;
+}
+.swiper-container {
+    width: 100%;
+    height: 344px;
+}
+.swiper-slide img{
 	width: 100%;
-	height: 344px;
+	height: 100%;
 	
 }
-.bananer{
+.swiper-container{
 	position: relative;
 }
 .xl{display: none;}

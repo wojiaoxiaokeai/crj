@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我自己的轮播</title>
+	<style>
+	img{
+		width: 662px;
+		height: 439px;
+		vertical-align: middle;
+		text-decoration: none;
+	}
+	*{
+		margin:0;
+		padding:0;
+		list-style: none;
+
+	}
+	.max{
+		width: 960px;
+		height: 439px;
+		position: relative;
+		overflow: hidden;
+	}
+	.max ul{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 960%;
+		transition: 3s;
+	}
+	.max ul li{
+		float: left;
+		width: 662px;
+		height: 439px;
+	}
+	.max a{
+         position: absolute;
+         width:50px;
+         height: 60px;
+         line-height: 60px;
+         background-color: #fff;
+         text-align: center;
+         background: rgba(0,0,0,0.5); 
+         color: #fff;
+
+
+	}
+	.max a:hover{
+		background: rgba(0,0,0,0.6); 
+	}
+	.zuo{
+		left: 0px;
+		top:50%;
+	}
+	.you{
+		right: 0px;
+	    top:50%;
+	}
+	
+
+   </style>
+</head>
+<body>
+	<div class="max">
+	    <ul id="min">
+            <li><img src="img/bananer2.png" alt=""></li>
+            <li style="margin-left:-510px;"><img src="img/bananer2.png" alt=""></li>
+            <li><img src="img/bananer2.png" alt=""></li>
+            <li><img src="img/bananer2.png" alt=""></li>
+            <li><img src="img/bananer2.png" alt=""></li>
+        </ul>
+        <a href="#" class="zuo">&lt;</a>
+		<a href="#" class="you" id="next">&gt;</a>
+    </div>
+    <script>
+       var onext = document.getElementById('next');
+       var omin = document.getElementById('min');
+       var zxr = 0;
+             onext.onclick=function(){
+             	zxr++;
+             	omin.style.left=zxr*-662+'px';
+             }
+
+
+    </script>
+</body>
+</html>

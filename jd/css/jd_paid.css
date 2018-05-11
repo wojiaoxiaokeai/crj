@@ -1,0 +1,80 @@
+@charset "utf_8";
+.gwidth{
+	padding-left: 13px;
+	margin-right: 11px;
+}
+.qb{
+	display: none;
+}
+.swiper-container {
+    width: 100%;
+    height: 230px;
+} 
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+.nav{
+	display: block;
+}
+.gsjj{
+	padding-left: 100px;
+	height: 460px;
+}
+.gsjj_r{
+	display: block;
+}
+.gsjj_l{
+	margin-top: 55px;
+}
+.gsjj_r{
+	display: block;
+	margin-left:45px;
+	margin-top:80px;
+}
+.gsjj_l p{
+	padding-top: 10px;
+	width: 345px;
+	height: 75px;
+	line-height: 30px;
+}
+.cpzs{
+	height: 300px;
+}
+.cpzs_bottom{
+	padding-left:20px;
+}
+.cpzs_bottom li{
+    float: left;
+    width: 25%;
+}
+
+.xdq li{
+	width: 149px;
+	margin-right: 37px;
+}
+.cpzs_bottom li img{
+	width: 164px;
+	height: 173px;
+    border:1px solid #ccc;
+}
+.sdys{
+	background-color: #FFC001;
+	height: 250px;
+}
+.hzlm{
+	width: 100%;
+	text-align: center;
+	height: 249px;
+	background: url(../image/jianpan.png) no-repeat;
+}
+.hzlm{
+	line-height: 26px;
+}
+.xwzx_bottom{
+	margin-top:20px;
+}
+.xwzx_bottom li{
+	float: left;
+	width: 50%;
+}

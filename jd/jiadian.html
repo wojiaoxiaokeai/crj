@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>家电响应式</title>
+	<link rel="stylesheet" href="swiper/swiper.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/gg.css">
+    <link rel="stylesheet" href="css/jd_shouji.css">
+     <link rel="stylesheet" type="text/css" href="css/jd_paid.css" media="(min-width:768px)">
+	<link rel="stylesheet" type="text/css" href="css/jd_pc.css" media="(min-width:1024px)">
+    <link rel="stylesheet" href="font/iconfont.css">
+     <script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+</head>
+<body>
+	<div class="header gwidth">
+         <img src="image/logo.jpg" alt="" chass="fl">
+         <p class="iconfont fr qb">&#xe669;</p>
+    </div>
+    <div class="nav gwidth">
+         <ul class="clearfix" id="nav">
+               <li><a href="#">首页</a>
+                    <dl class="xl">
+                        <dd>摄影</dd>
+                        <dd>新闻</dd>
+                        <dd>写真</dd> 
+                    </dl>
+               </li>
+               <li><a href="#">企业文化</a>
+                   <dl class="xl">
+                        <dd>产品</dd>
+                        <dd>产品</dd>
+                        <dd>产品</dd>
+                   </dl>
+               </li>
+               <li><a href="#">案例展示</a>
+                    <dl class="xl">
+                        <dd>下载</dd>
+                        <dd>下载</dd>
+                        <dd>下载</dd>
+                   </dl>
+               </li>
+               <li><a href="#">新闻资讯</a>
+                    <dl class="xl">
+                        <dd>支持</dd>
+                        <dd>支持</dd>
+                        <dd>支持</dd>
+                   </dl> 
+               </li>
+               <li><a href="#">在线留言</a>
+                    <dl class="xl">
+                        <dd>支持</dd>
+                        <dd>支持</dd>
+                        <dd>支持</dd>
+                   </dl> 
+               </li>
+         </ul>
+    </div>
+    <div class="bananer">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="image/banner.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="image/banner.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="image/banner.jpg" alt=""></div>
+            </div>
+             <!-- 如果需要分页器 -->
+             <div class="swiper-pagination"></div>
+    
+              <!-- 如果需要导航按钮 -->
+             <div class="swiper-button-prev"></div>
+             <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <ul class="pj gwidth">
+         <li>
+              <p class="iconfont tu_b">&#xe62c;</p>
+              <p class="bai">100%</p>
+              <p class="bz">保证满意</p>
+         </li>
+         <li>
+              <p class="iconfont tu_b">&#xe617;</p>
+              <p class="bai">3000</p>
+              <p class="bz">客户使用</p>
+         </li>
+         <li>
+              <p class="iconfont tu_b">&#xe624;</p>
+              <p class="bai">100</p>
+              <p class="bz">入注商家</p>
+         </li>
+    </ul>
+    <div class="gszz">
+    	<div class=" li gwidth">
+          <h4>公司宗旨</h4>
+          <p>倡导一种文化，一种品质和唯美并重的严谨，在世界领域则以“中国品质，全球共享”的理念，成为全球歌制造业的忠诚合作者。</p>
+        </div>
+    </div>
+    <div class="gsjj gwidth">
+         <div class="gsjj_l fl">
+               <h3>公司简介</h3>
+               <p>公司是一家集研发、制造、销售于一体的综合性小家电企业，公司主要产：电饭煲、电饭锅、电压力锅、多功能电火锅、快速电热水壶、光波炉等系列产品。</p><p>公司引进了先进的生产线与检测设备，并拥有一批高素质的工程技术人员、管理人员和一线生产员工。</p><p>展望未来，爱廉电器将加大科研投入、研究新技术、开拓进取，奋力拼搏，开发新产品，不断为顾客特功一流的场频和服务，以实现企业的可持续发展</p>
+
+         </div>
+         <div class="gsjj_r fl">
+              <img src="image/m3.jpg" alt="">
+         </div>
+    </div>
+    <div class="cpzs gwidth">
+		<div class="cpzs_top">
+			<h3>产品展示</h3>
+			<ul class="xdq">
+              	<li>电暖气</li>
+              	<li>小家电</li>
+              	<li>制冷电器</li>
+              	<li>厨房电器</li>
+
+			</ul>
+		</div>
+		<ul class="cpzs_bottom">
+			<li>
+                <img src="image/m4.jpg" alt="">
+			</li>
+			<li>
+                <img src="image/m4.jpg" alt="">
+			</li>
+			<li>
+                <img src="image/m4.jpg" alt="">
+			</li>
+			<li>
+                <img src="image/m4.jpg" alt="">
+			</li>
+
+		</ul>
+    </div>
+    <div class="sdys">
+		<div class="gsjj_l gwidth">
+               <h3 style="color: #fff;border-bottom: 2px solid #fff;">公司简介</h3>
+               <p style="color: #fff; width: 100%;height: 36px;">1.公司是一家集研发、制造、销售于一体的综合性小家电企业，公司主要产：电饭煲、电饭锅、电压力锅、多功能电火锅、快速电热水壶、光波炉等系列产品。</p><p style="color: #fff;width: 100%;height: 36px;">1.公司引进了先进的生产线与检测设备，并拥有一批高素质的工程技术人员、管理人员和一线生产员工。</p><p style="color: #fff;width: 100%;height: 36px;">1.展望未来，爱廉电器将加大科研投入、研究新技术、开拓进取，奋力拼搏，开发新产品，不断为顾客特功一流的场频和服务，以实现企业的可持续发展</p>
+
+         </div>
+    </div>
+    <div class="hzlm">
+		<h3>合作联盟，优势互补好经营</h3>
+		<p>与供应商实现联营，透明管理，职责明晰。保护供应商的独立知识产权，重分发水供应商的商业组织优势，让供应商更专一更专</p>
+		<p>业，同时在销售上，省区进场费，条码费，实现运营成本最低化，直接操作乡镇，让利消费者。让产品价格竞争优势不可匹敌。《百灵吨厨房电器</p>
+		<p>生活馆》采用最高效的供应商联营合作模式，确保所售产品的绝对竞争优势</p>
+    </div>
+    <div class="xwzx gwidth">
+		<div class="xwzx_top">
+			<h3>新闻资讯</h3>
+		</div>
+		<ul class="xwzx_bottom">
+			<li class="fl">
+				<img src="image/m7.jpg" alt="">
+				<p style="font-size: 16px;">前三季度海西诺德电子电器消费口碑多项第一</p>
+				<p style="color: #999999;font-size: 15px;width: 340px;">今年的三季度，在我国彩电市场上，海信创维领先口碑指数海信、创维、TCL、三星、索尼、飞利浦、康佳、夏普、长虹、海...</p>
+			</li>
+			<li class="fl">
+				<img src="image/m71.jpg" alt="">
+				<p style="font-size: 16px;">前三季度海西诺德电子电器消费口碑多项第一</p>
+				<p style="color: #999999;font-size: 15px;width: 340px;">今年的三季度，在我国彩电市场上，海信创维领先口碑指数海信、创维、TCL、三星、索尼、飞利浦、康佳、夏普、长虹、海...</p>
+			</li>
+		</ul>
+    </div>
+    <div class="footer">
+        <p>copynight&nbsp2016&nbspAllrights resserved版权所有某某某公司名称</p>
+        <p>鸿蒙网络科技有限公司技术支持</p>
+        <p>入云端|常务端|祥云端|网游端</p>
+        <p>中国云CHCI系统|CP备案号：京ICP备09066050号-3</p>
+    </div>
+
+	<script>
+		function $(id){
+			return document.getElementById(id);
+		}
+		var nav=$('nav').getElementsByTagName('li');
+		var twoNav=$('nav').getElementsByTagName('dl');
+		for (var i=0;i<nav.length;i++){
+			nav[i].index=i;
+			nav[i].onclick=function(){
+				if(twoNav[this.index].className=='xl'){
+					twoNav[this.index].className='show';
+				}else{
+					twoNav[this.index].className='xl';
+				}
+			}
+		}
+	</script>
+	<script src="swiper/swiper.min.js"></script>
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+	effect : 'cube',
+   cubeEffect: {
+    slideShadows: true,
+    shadow: true,
+    shadowOffset: 100,
+    shadowScale: 0.6
+  },
+	
+    autoplay: {
+    delay: 2000,
+    stopOnLastSlide: false,
+    disableOnInteraction: false,
+    },
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    // 如果需要滚动条
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })        
+</script>         
+    
+</body>
+</html>

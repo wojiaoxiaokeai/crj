@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>摄影有限公司</title>
+	<link rel="stylesheet" href="swiper/swiper.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/gg.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/sy_shouji.css">
+    <link rel="stylesheet" type="text/css" href="css/sy_paid.css" media="(min-width:768px)">
+	<link rel="stylesheet" type="text/css" href="css/sy_pc.css" media="(min-width:1024px)">
+
+     <script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+</head>
+<body>
+	<div class="header gwidth">
+         <img src="img/logo.jpg" alt="" chass="fl">
+         <p class="iconfont fr qb">&#xe669;</p>
+  </div>
+  <div class="nav gwidth">
+         <ul class="clearfix" id="nav">
+               <li><a href="#">首页</a>
+                    <dl class="xl">
+                        <dd>摄影</dd>
+                        <dd>新闻</dd>
+                        <dd>写真</dd> 
+                    </dl>
+               </li>
+               <li><a href="#">摄影</a>
+                   <dl class="xl">
+                        <dd>产品</dd>
+                        <dd>产品</dd>
+                        <dd>产品</dd>
+                   </dl>
+               </li>
+               <li><a href="#">新闻</a>
+                    <dl class="xl">
+                        <dd>下载</dd>
+                        <dd>下载</dd>
+                        <dd>下载</dd>
+                   </dl>
+               </li>
+               <li><a href="#">写真</a>
+                    <dl class="xl">
+                        <dd>支持</dd>
+                        <dd>支持</dd>
+                        <dd>支持</dd>
+                   </dl> 
+               </li>
+               <li><a href="#">关于</a>
+                    <dl class="xl">
+                        <dd>支持</dd>
+                        <dd>支持</dd>
+                        <dd>支持</dd>
+                   </dl> 
+               </li>
+         </ul>
+  </div>
+  <div class="bananer">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
+            </div>
+             <!-- 如果需要分页器 -->
+             <div class="swiper-pagination"></div>
+    
+              <!-- 如果需要导航按钮 -->
+             <div class="swiper-button-prev"></div>
+             <div class="swiper-button-next"></div>
+        </div>
+  </div>
+  <div class="gywm gwidth">
+          <div class="gywm_top">
+                <p>关于我们</p>
+                <p>ABout&nbspus</p>
+          </div>
+          <div class="zt">
+		          <div class="gywm_bottom">
+		               <p>摄影是使用某种专门设备进行影像的过程，一般我们使用机械照相机或者也会被称为照相，也就是通过物摄影是使用某种专门设备进行影像记录的过程数码照相机进行摄影。有时摄影也会被称为照相，也就是通过物</p>
+		          </div>  
+		          <div class="tu">
+		                <img src="img/gy.jpg" alt="">
+		          </div>
+	        </div>
+          <div class="qw">
+                <img src="img/qianwang-.png" alt="">
+          </div>
+  </div>
+  <div class="sylx">
+         <div class="sylx_top gwidth">
+              <p>摄影类型</p>
+              <p>photography&nbspby&nbspgenre</p>
+         </div>
+         <ul class="sylx_bottom gwidth">
+             <li>
+                  <img src="img/gerenxiezhen.png" alt="">
+                  <p>个人写真</p>
+                  <p>Personal&nbspphoto</p>
+             </li>
+             <li>
+                  <img src="img/guimixiezhen.png" alt="">
+                  <p>闺蜜写真照</p>
+                  <p>Personal&nbspphoto</p>
+             </li>
+             <li>
+                  <img src="img/qinzihao.png" alt="">
+                  <p>个人写真</p>
+                  <p>Personal&nbspphoto</p>
+             </li>
+
+             <li>
+                  <img src="img/hunshazhao.png" alt="">
+                  <p>个人写真</p>
+                  <p>Personal&nbspphoto</p>
+             </li>
+         </ul>
+  </div>
+  <div class="fgxz gwidth">
+         <div class="fgxz_top">
+               <p>风格.写真</p>
+               <p>style.photogrene</p>
+         </div>
+         <div class="fgxz_bottom">
+         	<div class="wy">
+              <img src="img/m31.jpg" alt="">
+              <div class="bj">
+		              <p>天生文艺范<span class="iconfont">&#xe612;</span></p>
+		              <p>我们抬头仰望，时间向外流淌，我们像那朵云..</p>
+              </div>
+            </div>
+            <div class="wy">
+              <img src="img/m32.jpg" alt="">
+              <div class="bj">
+		              <p>天生文艺范<span class="iconfont">&#xe612;</span></p>
+		              <p>我们抬头仰望，时间向外流淌，我们像那朵云..</p>
+              </div>
+            </div>
+             <div class="wy">
+              <img src="img/m33.jpg" alt="">
+              <div class="bj">
+		              <p>天生文艺范<span class="iconfont">&#xe612;</span></p>
+		              <p>我们抬头仰望，时间向外流淌，我们像那朵云..</p>
+              </div>
+            </div>
+             <div class="wy">
+              <img src="img/m34.jpg" alt="">
+              <div class="bj">
+		              <p>天生文艺范<span class="iconfont">&#xe612;</span></p>
+		              <p>我们抬头仰望，时间向外流淌，我们像那朵云..</p>
+              </div>
+            </div>
+            <div class="wy">
+              <img src="img/m35.jpg" alt="">
+              <div class="bj">
+		              <p>天生文艺范<span class="iconfont">&#xe612;</span></p>
+		              <p>我们抬头仰望，时间向外流淌，我们像那朵云..</p>
+              </div>
+            </div>
+            <div class="wy">
+              <img src="img/m36.jpg" alt="">
+              <div class="bj">
+		              <p>天生文艺范<span class="iconfont">&#xe612;</span></p>
+		              <p>我们抬头仰望，时间向外流淌，我们像那朵云..</p>
+              </div>
+            </div>
+
+         </div>
+  </div>
+  <div class="zxxw">
+         <div class="zxxw_top gwidth">
+              <p>最新新闻</p>
+              <p>News</p>
+         </div>
+         <div class="zxxw_bottom gwidth">
+         	  <div class="xw">
+		              <div class="xw1">
+		                   <img src="img/m41.jpg" alt="">
+		                   <p class="p1">摄影是使用某种专门设备进行影像的过程，一般我们使用机械照相机或者也会被称为照相，也就是通过物摄影是使用某种专门设备进行影像记录的过程数码照相机进行摄影。有时摄影也会被称为照相，也就是通过物</p>
+		              </div>
+		              <div class="xw2">
+		                  <img src="img/qianwang-.png" alt="">
+		              </div>
+		        </div>
+		        <div class="xw">
+		              <div class="xw1">
+		                   <img src="img/m41.jpg" alt="">
+		                   <p>摄影是使用某种专门设备进行影像的过程，一般我们使用机械照相机或者也会被称为照相，也就是通过物摄影是使用某种专门设备进行影像记录的过程数码照相机进行摄影。有时摄影也会被称为照相，也就是通过物</p>
+		              </div>
+		              <div class="xw2">
+		                  <img src="img/qianwang-.png" alt="">
+		              </div>
+		        </div>
+         </div>
+  </div>
+    <div class="khfk">
+          <div class="khfk_top gwidth">
+              <p>客户反馈</p>
+              <p>Customer&nbspFeedback</p>
+          </div>
+          <ul class="khfk_bottom gwidth">
+               <li>
+                   <img src="img/m5.png" alt="">
+                   <p class="p1">摄影是使用某种专门设备进行影像的过程，一般我们使用机械照相机或者也会被称为照相，也就是通过物摄影是使用某种专门设备进行影像记录的过程数码照相机进行摄影。有时摄影也会被称为照相，也就是通过物</p>
+
+               </li>
+               <li>
+                   <img src="img/m5.png" alt="">
+                   <p class="p1">摄影是使用某种专门设备进行影像的过程，一般我们使用机械照相机或者也会被称为照相，也就是通过物摄影是使用某种专门设备进行影像记录的过程数码照相机进行摄影。有时摄影也会被称为照相，也就是通过物</p>
+
+               </li>
+          </ul>
+    </div>
+    <div class="footer">
+        <p>copynight&nbsp2016&nbspAllrights resserved版权所有某某某公司名称</p>
+        <p>鸿蒙网络科技有限公司技术支持</p>
+        <p>入云端|常务端|祥云端|网游端</p>
+        <p>中国云CHCI系统|CP备案号：京ICP备09066050号-3</p>
+    </div>
+ <script>
+		function $(id){
+			return document.getElementById(id);
+		}
+		var nav=$('nav').getElementsByTagName('li');
+		var twoNav=$('nav').getElementsByTagName('dl');
+		for (var i=0;i<nav.length;i++){
+			nav[i].index=i;
+			nav[i].onclick=function(){
+				if(twoNav[this.index].className=='xl'){
+					twoNav[this.index].className='show';
+				}else{
+					twoNav[this.index].className='xl';
+				}
+			}
+		}
+</script>
+	<script src="swiper/swiper.min.js"></script>
+ <script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+	effect : 'cube',
+   cubeEffect: {
+    slideShadows: true,
+    shadow: true,
+    shadowOffset: 100,
+    shadowScale: 0.6
+  },
+	
+    autoplay: {
+    delay: 2000,
+    stopOnLastSlide: false,
+    disableOnInteraction: false,
+    },
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    // 如果需要滚动条
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })        
+  </script>         
+    
+	
+</body>
+</html>
